@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+header{
+    height: 50vh;
+    background: url('https://cutt.ly/TzafOyS');
+    background-position: center;
+    color: #fff;
+    text-align: center;
+}
+
+header nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+header nav a{
+    color: #bababa;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color: #fff;
+    border-bottom: 1px solid #919191;
+}
+
+header .principal{
+    margin-top: 40px;
+}
+
+header .principal h4{
+    margin-top: -30px;
+    padding: 20px;
+}
+
+.M{
+    text-decoration: underline;
+}
+
+#info{
+    text-decoration: underline;
+}
+
+#moi{
+    background-color: #222f3e;
+    color: #fff;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#moi .gauche{
+    width: 60%;
+    margin-right: 100px;
+}
+
+@media screen and (max-width: 810px){
+    #moi .gauche{
+        width: 100%;
+        margin-right: 100px;
+    }
+    #moi .droite{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.video{
+    background-color: rgb(133, 133, 133);
+    color: #fff;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.video .vgauche{
+    width: 60%;
+    margin-right: 100px;
+}
+
+@media screen and (max-width: 810px){
+    .video .vgauche{
+        width: 100%;
+        margin-right: 100px;
+    }
+    .video .vdroite{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.offre{
+    padding: 30px;
+    background: url('https://cdn.pixabay.com/photo/2017/03/27/13/38/canyon-2178786__340.jpg');
+    background-position: center;
+    color: #fff;
+}
+
+.offre h1 , .offre p{
+    text-align: center;
+}
+
+footer{
+    background-color: #18212b;
+    color: #fff;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer .reseau{
+    display: flex;
+}
+
+footer .reseau p{
+    margin-right: 15px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    padding: 5px;
+    text-align: center;
+    width: 20px;
+}
+
+footer a{
+    text-decoration: none;
+    color: #bababa;
+}
+
+footer a:hover{
+    color: #fff;
+}
