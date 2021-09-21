@@ -140,3 +140,32 @@ footer a{
 footer a:hover{
     color: #fff;
 }
+
+.images{
+    display: flex;
+    animation-duration: 45s;
+    animation-name: Img;
+    animation-iteration-count:infinite;
+    animation-delay: 2s;
+}
+
+#caroussel{
+    width: 280px;
+    overflow: auto;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 25px;
+
+@keyframes Img {
+    0%{
+        transform: translateX(0);
+    }
+    33%{
+        transform: translateX(-280px);
+    }
+    66%{
+        transform: translateX(-560px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
