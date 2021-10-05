@@ -76,7 +76,7 @@ header .principal h4{
 }
 
 .video{
-    background-color: rgb(133, 133, 133);
+    background-color: #595d61;
     color: #fff;
     padding: 30px;
     display: flex;
@@ -101,13 +101,19 @@ header .principal h4{
 
 .offre{
     padding: 30px;
-    background: url('https://cdn.pixabay.com/photo/2017/03/27/13/38/canyon-2178786__340.jpg');
+    background: url('https://cdn.pixabay.com/photo/2015/03/26/09/44/cell-phone-690192_960_720.jpg');
     background-position: center;
     color: #fff;
 }
-
+.offre h1 {
+    text-decoration: underline;
+}
 .offre h1 , .offre p{
     text-align: center;
+}
+.scroll{
+    height: 35px;
+    width: 35px;
 }
 
 footer{
@@ -155,17 +161,4 @@ footer a:hover{
     border: 2px solid rgb(0, 0, 0);
     border-radius: 25px;
 
-@keyframes Img {
-    0%{
-        transform: translateX(0);
-    }
-    33%{
-        transform: translateX(-280px);
-    }
-    66%{
-        transform: translateX(-560px);
-    }
-    100%{
-        transform: translateX(0);
-    }
-}
+
